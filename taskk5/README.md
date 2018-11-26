@@ -23,6 +23,7 @@ output example =>
 Sized files’ param
 
 files_lazy_lister = your_wrapper(os.walk("c:\\"), min_size_kb=100)
+
 list(files_lazy_lister)
 
 output example =>
