@@ -5,7 +5,7 @@ Store it in a separate module named “functional_utils”.
 Let it accept timeout as an argument for return values retention.
 
 
-# -*- coding: utf-8 -*-
+ -*- coding: utf-8 -*-
 import random
 import time
 
@@ -14,8 +14,7 @@ import time
 from functional import caching
 
 === here be your code ===
-
-# === do not modify below ===
+ === do not modify below ===
 SLEEP_SPAN = 3
 
 
@@ -43,7 +42,7 @@ passenger2 = get_passenger_id()
 assert driver1 is driver2, "Drivers differ, but should be same!"
 assert passenger1 is passenger2, "Passengers differ, but should be same!"
 
-# Exhaust the caching timer
+=== Exhaust the caching timer ====
 time.sleep(SLEEP_SPAN)
 
 driver3 = get_driver_id()
