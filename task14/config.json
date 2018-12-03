@@ -1,0 +1,13 @@
+{
+  "username": "alex_dyagel",
+  "password": "1533",
+  "ips": {
+    "192.168.56.3": "local",
+    "192.168.56.4": "remote",
+    "192.168.56.5": "remote"
+  },
+  "file_with_public_key": "/home/alex_dyagel/.ssh/id_rsa.pub",
+  "file_with_private_key": "/home/alex_dyagel/.ssh/id_rsa",
+  "file_with_authorized_keys": "/home/alex_dyagel/.ssh/authorized_keys"
+}
+
